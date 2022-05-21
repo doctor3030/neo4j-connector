@@ -8,14 +8,14 @@ ROOOT = pathlib.Path(__file__).parent
 README = (ROOOT / "README.md").read_text()
 
 setup(
-    name='loguru_logger_lite',
-    version="0.0.4",
+    name='neo4j_connector',
+    version="0.0.1",
     author="Dmitry Amanov",
     author_email="",
-    description="Simple loguru_logger_lite built on top of loguru to make a quick setup for basic logging",
+    description="Neo4j database connector",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/doctor3030/loguru-logger-lite",
+    url="https://github.com/doctor3030/neo4j-connector",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
@@ -26,7 +26,6 @@ setup(
     install_requires=[
         "setuptools>=57",
         "wheel",
-        "loguru~=0.5.3",
-        "kafka-python~=2.0.2"
+        "neo4j==4.4.3"
     ]
 )

@@ -1,7 +1,7 @@
 import enum
 import logging
 import sys
-import pydantic
+# import pydantic
 from typing import Dict, Any, Callable, Optional, Tuple, List
 from neo4j import GraphDatabase
 from neo4j.work.summary import ResultSummary
