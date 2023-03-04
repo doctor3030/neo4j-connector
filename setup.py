@@ -9,7 +9,7 @@ README = (ROOOT / "README.md").read_text()
 
 setup(
     name='neo4j_connector',
-    version="0.0.1",
+    version="0.1.0",
     author="Dmitry Amanov",
     author_email="",
     description="Neo4j database connector",
@@ -26,6 +26,6 @@ setup(
     install_requires=[
         "setuptools>=57",
         "wheel",
-        "neo4j==4.4.3"
+        "neo4j==5.6.0"
     ]
 )
